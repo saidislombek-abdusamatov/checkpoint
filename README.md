@@ -1,5 +1,3 @@
-**README: Model Checkpoint Usage in TensorFlow and PyTorch**
-
 # Model Checkpointing in Deep Learning with TensorFlow and PyTorch
 
 In deep learning, training complex models can be time-consuming and resource-intensive. Interruptions like unexpected system crashes or reaching the training time limit can lead to loss of valuable training progress. To address this issue, model checkpointing comes to the rescue. Model checkpointing allows you to save the model's weights and other necessary parameters during training. This way, you can resume training from the last saved checkpoint in case of interruptions.
@@ -76,4 +74,4 @@ for epoch in range(epoch, num_epochs):
 
 In this example, the model's state dictionary, optimizer's state dictionary, current epoch, loss, or any other necessary information are saved in the checkpoint. The model can then be restored, and training can be resumed from the saved epoch.
 
-Feel free to customize the checkpointing process based on your specific use case and requirements. Happy training!
+Feel free to customize the checkpointing process based on your specific use case and requirements.
